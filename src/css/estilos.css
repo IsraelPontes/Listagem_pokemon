@@ -1,0 +1,226 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    max-width: 1280px;
+    margin: 0 auto;
+    background-color: #5E5B5BAD;
+    color: #333333;
+}
+
+body.modo-escuro {
+    background-color: #212121;
+    color: #F5F5F5;
+}
+
+body.modo-escuro .descricao:hover {
+    background: #F1E9E9;
+    border: 3px solid #FFFFFF;
+    border-radius: 8px;
+    color: #212121;
+}
+
+body.modo-escuro .cartao-pokemon:hover {
+    border: 3px solid #FFFFFF;
+}
+
+body.modo-escuro .cartao-pokemon .descricao:hover {
+    border: 3px solid #FFFFFF;
+}
+
+body.modo-escuro .cartao-pokemon .tipo:hover {
+    border: 3px solid #FFFFFF;
+}
+
+body.mod.cartao-pokemon .tipo:hover {
+    border: 3px solid #FFFFFF;
+}
+
+body.modo-escuro .descricao:hover {
+    max-height: 95px;
+    overflow-y: scroll;
+    font-size: 14px;
+    /* padding-right: 10px; */
+    padding: 5px;
+    text-align: justify;
+}
+
+body.modo-escuro .cartao-pokemon .informacoes {
+    color: #212121;
+    background: #F1E9E9;
+    border: 3px solid #FFFFFF;
+}
+
+.modo-escuro .cartao-pokemon {
+    background-color: #A8A8A8;
+}
+
+.modo-escuro .cartao-grama:hover {
+    background-color: #003800;
+}
+
+.modo-escuro .cartao-fogo:hover {
+    background-color: #5E0000;
+}
+
+.modo-escuro .cartao-agua:hover {
+    background-color: #002673;
+}
+
+.modo-escuro .cartao-inseto:hover {
+    background-color: #474838;
+}
+
+header {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 25px;
+}
+
+header .logo,
+header .imagem-botao {
+    width: 30px;
+    transition: 0.2s ease-in-out;
+}
+
+header #botao-alterar-tema {
+    background: none;
+    border: none;
+    /* cursor: pointer; */
+}
+
+header .logo:hover,
+header .imagem-botao:hover,
+main .cartao-pokemon:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+main {
+    padding: 25px;
+}
+
+main .listagem-pokemon {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+
+main .cartao-pokemon {
+    background-color: #D8E3EC;
+    width: 200PX;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    border-radius: 15px;
+    transition: 0.2s ease-in-out;
+}
+
+main .cartao-pokemon .informacoes {
+    background-color: #D8E3EC;
+    display: flex;
+    justify-content: space-between;
+    border: 3px solid #582965;
+    border-radius: 10px;
+    font-size: bold;
+}
+
+main .cartao-pokemon .informacoes span {
+    /* background-color: aqua; */
+    padding: 5px;
+    text-transform: uppercase;
+    font-size: 17px;
+}
+
+main .cartao-pokemon .gif {
+    width: 90px;
+    height: 90px;
+}
+
+main .cartao-pokemon .tipos {
+    /* background-color: white; */
+    display: flex;
+    gap: 15px;
+}
+
+main .cartao-pokemon .tipo {
+    padding: 8px;
+    border-radius: 10px;
+}
+
+main .descricao {
+    max-height: 90px;
+    overflow-y: scroll;
+    font-size: 14px;
+    /* padding-right: 10px; */
+    padding: 5px;
+    text-align: justify;
+}
+
+main .cartao-pokemon .tipo:hover {
+    border: 3px solid #582965;
+}
+
+main .descricao:hover {
+    background: #D8E3EC;
+    border: 3px solid #582965;
+    border-radius: 8px;
+}
+
+main .cartao-grama:hover {
+    background-color: #B7E2B4;
+    border: 3px solid #582965;
+}
+
+main .cartao-fogo:hover {
+    background-color: #F5B687;
+    border: 3px solid #582965;
+}
+
+main .cartao-agua:hover {
+    background-color: #9DB8F5;
+    border: 3px solid #582965;
+}
+
+main .cartao-inseto:hover {
+    background-color: #F7F7C1;
+    border: 3px solid #582965;
+}
+
+.grama {
+    background-color: #7AC74C;
+}
+
+.veneno {
+    background-color: #DF67DDFB;
+}
+
+.fogo {
+    background-color: #EE8130;
+}
+
+.agua {
+    background-color: #6390F0;
+}
+
+.inseto {
+    background-color: #A6B91A;
+}
+
+.rodape {
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 10px;
+}
+.modo-escuro .titulo{
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
